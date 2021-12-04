@@ -13,8 +13,6 @@ import java.util.Scanner;
 
 public class TaskManager {
 
-    public static void main(String[] args) {
-
         static final String FILE_NAME = "tasks.csv";
         static final String[] OPTIONS = {"add", "remove", "list", "exit"};
         static String[][] tasks;
@@ -56,7 +54,6 @@ public class TaskManager {
             }
             printOptions(OPTIONS);
         }
-    }
 
     public static int getTheNumber() {
         Scanner scanner = new Scanner(System.in);
